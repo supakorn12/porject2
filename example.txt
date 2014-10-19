@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<title>
+	5710121075  ศุภกร  เพ็ชรรัตร์  งานชิ้นที่ 2
+	</title>
+	<style>
+	body {
+    background-image: url("image-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+	}
+	</style>
+  </head>
+  <body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://www.psu.ac.th" target="_blank"> <img src="psu.gif" height="100" width="70" ></a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="http://www.google.com" target="_blank">Google</a></li>
+        <li><a href="http://www.facebook.com" target="_blank">Facebook</a></li> 
+        <li><a href="http://www.youtube.com" target="_blank">Youtube</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+<hr>
+    <div class="container">
+      <h1>5710121075  ศุภกร  เพ็ชรรัตน์</h1>
+      <p>สถานที่ท่องเที่ยว</p>      
+      <div class="row">
+        <div class="col-sm-6" style="background-color:lavender;">
+         <p>
+		<br> 1. แม่แจ่ม : อำเภอเล็ก ๆ ในจังหวัดเชียงใหม่ ดินแดนนครลับแลแห่งเมืองล้านนา โดดเดี่ยวท่ามกลางป่า ถูกโอบล้อมไปด้วยภูเขา
+		<br><br>2.สันป่าเกี๊ยะ : กลางคืนจะเห็นดาวเต็มท้องฟ้าส่องแสงระยิบระยับจากเมืองเชียงดาว
+		<br><br>3.ดอยหัวหมด : จุดชมวิวพระอาทิตย์ขึ้นพระอาทิตย์ตก และดูทะเลหมอกยามเช้า
+		<br><br>4.ดอยม่อนจอง : สิ่งที่ดึงดูดให้นักท่องไพร คือ กวางผาหรือม้าเทวดา ซึ่งมีถิ่นอาศัยอยู่ที่นี่ และดอกกุหลาบพันปี
+		<br><br>5.เขาโมโกจู : ขุนเขาแห่งความหนาวเย็น เป็นยอดเขาที่สูงที่สุดในอุทยานแห่งชาติแม่วงก์
+		  </p>
+        </div>
+        <div class="col-sm-6" style="background-color:lavenderblush;">
+          <p>
+		  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			  <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="image-1.jpg">
+                <div class="carousel-caption">
+                  Picture 1 แม่แจ่ม
+                </div>
+              </div>
+              <div class="item">
+                <img src="image-2.jpg">
+                <div class="carousel-caption">
+                  Picture 2 สันป่าเกี๊ยะ
+                </div>
+              </div>
+              <div class="item">
+                <img src="image-3.jpg">
+                <div class="carousel-caption">
+                  Picture 3 ดอยหัวหมด
+                </div>
+              </div>
+			  <div class="item">
+                <img src="image-4.jpg">
+                <div class="carousel-caption">
+                  Picture 4 ดอยม่อนจอง
+                </div>
+              </div>
+			  <div class="item">
+                <img src="image-5.jpg">
+                <div class="carousel-caption">
+                  Picture 5 เขาโมโกจู
+                </div>
+              </div>
+            </div><!-- /.carousel-inner -->
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div><!-- /.carousel -->
+		  </p>
+        </div>
+      </div>
+    </div>
+	<div class="col-sm-6" style="background-color:lavender;">
+	<p align="center">
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/6jAoMQeDBd4?rel=0" frameborder="0" allowfullscreen></iframe>
+	</p>
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
